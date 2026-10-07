@@ -63,11 +63,11 @@ write-ups you include.
 
 ## How to submit
 
-Reply to the email this task was sent from by `18.10.2026`. Earlier submissions will be
-reviewed first.
+Send us your repository link and live URL in reply to the email you received this task
+from.
 
-Create your own **private** GitHub repository from this folder and add `brockdecker` as a
-collaborator, so only we can read it. Please keep it private, even after you submit. Keep
+Create your own **private** GitHub repository from this template and add `brockdecker` as
+a collaborator, so only we can read it. Please keep it private, even after you submit. Keep
 your live URL running for at least 14 days after submitting. Free Supabase projects pause
 when idle, so please check it is awake when you submit.
 
