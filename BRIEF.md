@@ -18,7 +18,7 @@ There is no time limit. It might take you about 2 hours, depending on your exper
 1. Read the code and decide what matters most.
 2. Fix the issues you think are most important. Add tests where they help.
 3. Set up CI (GitHub Actions or similar).
-4. Deploy it on free tiers (Cloudflare and Supabase) in your own new accounts.
+4. Deploy it on free tiers (Cloudflare and Supabase) in your own accounts.
 5. Send us the repository link and the live URL.
 
 You decide what to fix and in what order. You do not need to fix everything, and
@@ -51,8 +51,9 @@ us why you chose them.
 - Work through **branches and pull requests**. Please do not rewrite history or
   force-push. Build a proper deploy pipeline.
 - Give each pull request a short description: what changed, why, and how you checked it.
-- Use **new, empty free accounts** for Cloudflare, Supabase and Firecrawl. Do not use
-  credentials from anything you own or any other service.
+- Use your own accounts for Cloudflare, Supabase and Firecrawl, or create new ones on the
+  free plans. Everything must run on free tiers. Do not commit keys or passwords, and do not
+  send us any credentials.
 - Please do not share this task or your solution with anyone else.
 
 ## What we look at
