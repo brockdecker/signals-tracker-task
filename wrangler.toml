@@ -1,0 +1,15 @@
+name = "signals-tracker"
+main = "src/worker.ts"
+compatibility_date = "2026-09-01"
+
+[assets]
+directory = "./web/dist"
+binding = "ASSETS"
+run_worker_first = ["/api/*"]
+
+[vars]
+SUPABASE_URL = "https://your-project-ref.supabase.co"
+SUPABASE_SERVICE_KEY = "sb_secret_9aF3kQ7xL2mZpR8vT1cW5yD0hJ4nB6gE"
+
+[env.staging]
+name = "signals-tracker-staging"

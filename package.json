@@ -1,0 +1,20 @@
+{
+  "name": "signals-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "web": "npm --prefix web run dev",
+    "build": "npm --prefix web run build",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261006.1",
+    "typescript": "^5.6.0",
+    "wrangler": "^4.0.0"
+  }
+}
